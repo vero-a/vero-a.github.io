@@ -30,14 +30,14 @@ function Projects() {
                     </div>
                     <div className='hidden flex-row gap-4 w-full group-hover:block absolute top-[40%] left-[25%] translate-x-0 translate-y-0'>
                       <a
-                        href='https://github.com/vero-a/Luxury-Hotel-Project'
+                        href='https://github.com/vero-a/Luxury-Western-Resort'
                         target='_blank'
                         rel='noreferrer'
                       >
                         <button className='bg-stone-50 text-gray-900 w-1/2 tracking-wide uppercase font-normal my-1 mx-1 px-6 py-4 lg:px-10'>Code</button>
                       </a>
                       <a
-                        href='https://vero-a.github.io/Luxury-Hotel-Project/'
+                        href='https://vero-a.github.io/Luxury-Western-Resort/'
                         target='_blank'
                         rel='noreferrer'
                       >
@@ -60,7 +60,7 @@ function Projects() {
                     </div>
                     <div className='hidden flex-row gap-4 w-full group-hover:block absolute top-[40%] left-[25%] translate-x-0 translate-y-0'>
                       <a
-                        href='https://github.com/vero-a/Meta-Capstone-Project'
+                        href='https://github.com/vero-a/Little-Lemon-Restaurant'
                         target='_blank'
                         rel='noreferrer'
                       >
