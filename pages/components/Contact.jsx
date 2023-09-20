@@ -9,9 +9,9 @@ function Contact() {
             <div>
                 <ul className='flex text-3xl mx-4 gap-5 justify-center'>
                     <li className='rounded-md shadow-md shadow-gray-400 p-2 hover:scale-105 dark:text-slate-200 dark:shadow-gray-700'>
-                        <a href='' target='_blank' className='flex'>
-                        <p>Email:</p>
+                        <a onClick={() => window.location = 'mailto:veronecaa2000@gmail.com'} target='_blank' className='flex gap-1'>
                         <AiOutlineMail/>
+                        <p>veronecaa2000@gmail.com </p>
                         </a>
                     </li>
                     <li className='rounded-md shadow-md shadow-gray-400 p-2 hover:scale-105  dark:text-slate-200 dark:shadow-gray-700'>

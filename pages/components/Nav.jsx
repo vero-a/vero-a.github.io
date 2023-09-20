@@ -1,13 +1,10 @@
 import React from 'react';
-import { useState } from 'react';
-import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {FaLinkedinIn} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
-function Nav() {
 
-  const [darkMode, setDarkMode]=useState(false);
+function Nav() {
 
   return (
     <nav>
@@ -23,14 +20,14 @@ function Nav() {
               </a>
             </li>
             <li className='rounded-md shadow-md shadow-gray-400 p-2 hover:scale-105 dark:text-slate-200 dark:shadow-gray-700'>
-              <a href='' target='_blank'>
+              <a onClick={() => window.location = 'mailto:veronecaa2000@gmail.com'} target='_blank'>
                 <AiOutlineMail/>
               </a>
             </li>
             <li>
-              <button className='bg-gradient-to-r from-blue-500 to-emerald-500 hover:bg-blue-500 mx-2'>
-              <a href='#' target='_blank'>Resume</a>
-              </button>
+              <a href='/PDF/VERONECA-ABOU-FAISSAL-CV.pdf' target='_blank' rel='noreferrer' >
+              <button className='bg-gradient-to-r from-blue-500 to-emerald-500 hover:bg-blue-500 mx-2'>Resume</button>
+              </a>
             </li>
           </ul>
     </nav>
