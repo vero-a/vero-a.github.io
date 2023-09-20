@@ -22,7 +22,7 @@ function Hero() {
           </Link>
         </div>
         <div className='relative justify-center w-80 h-80 md:h-full md:ml-1 md:w-96 ' >
-          <Image className='rounded-3xl' src={ProfilePicture}/>
+          <Image className='rounded-3xl' src={ProfilePicture} alt='Profile picture'/>
         </div>
       </div>
     </section>
