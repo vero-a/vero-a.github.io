@@ -50,7 +50,7 @@ function Projects() {
                     <Image src={LittleLemon} alt='Picture of a website created called Little Lemon' className='rounded-md group-hover:opacity-10'/>
                     <div className='grid grid-rows-2 items-center justify-left'>
                         <h3 className='font-medium mt-2'>Little Lemon Restaurant</h3>
-                        <p className='font-normal pb-1'>This is a website created for Little Lemon Restaurant using React JS. The design was created on Figma based on Meta's certification requirements, then recreated in React JS.</p>
+                        <p className='font-normal pb-1'>This is a website created for Little Lemon Restaurant using React JS. The design was created on Figma based on Meta&apos;s certification requirements, then recreated in React JS.</p>
                         <ul className='flex justify-start gap-8 py-2'>
                           <li className=' text-[#f06529]'><AiFillHtml5/></li>
                           <li className=' text-[#F0DB4F]'><IoLogoJavascript/></li>
