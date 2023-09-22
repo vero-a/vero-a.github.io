@@ -21,7 +21,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico'/>
       </Head>
 
-      <main className='dark:bg-gray-900'>
+      <main className=' dark:bg-gray-900'>
         <div className='py-8 mb-10 mx-6 flex justify-between md:mx-15 '>
           <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/>
           <Nav/>

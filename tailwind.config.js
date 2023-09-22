@@ -10,8 +10,9 @@ module.exports = {
     extend: {
       fontFamily: {
         raleway: 'Raleway',
-      }
+      },
     },
   },
   plugins: [],
+
 }
